@@ -1,10 +1,10 @@
 ﻿  Binariy_Calc.cpp
-C:\Users\PC\OneDrive\Documentos\GitHub\Short_School_Projects\Binariy_Calc\Binariy_Calc.cpp(72,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\PC\OneDrive\Documentos\GitHub\Short_School_Projects\Binariy_Calc\Binariy_Calc.cpp(73,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\PC\OneDrive\Documentos\GitHub\Short_School_Projects\Binariy_Calc\Binariy_Calc.cpp(86,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\PC\OneDrive\Documentos\GitHub\Short_School_Projects\Binariy_Calc\Binariy_Calc.cpp(110,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\PC\OneDrive\Documentos\GitHub\Short_School_Projects\Binariy_Calc\Binariy_Calc.cpp(111,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\PC\OneDrive\Documentos\GitHub\Short_School_Projects\Binariy_Calc\Binariy_Calc.cpp(123,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\PC\OneDrive\Documentos\GitHub\Short_School_Projects\Binariy_Calc\Binariy_Calc.cpp(149,24): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\PC\OneDrive\Documentos\GitHub\Short_School_Projects\Binariy_Calc\Binariy_Calc.cpp(150,24): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  Binariy_Calc.vcxproj -> C:\Users\PC\OneDrive\Documentos\GitHub\Short_School_Projects\Binariy_Calc\x64\Debug\Binariy_Calc.exe
+C:\Users\benja\OneDrive\Documentos\GitHub\Short_School_Projects\Binariy_Calc\Binariy_Calc.cpp(74,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\benja\OneDrive\Documentos\GitHub\Short_School_Projects\Binariy_Calc\Binariy_Calc.cpp(75,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\benja\OneDrive\Documentos\GitHub\Short_School_Projects\Binariy_Calc\Binariy_Calc.cpp(88,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\benja\OneDrive\Documentos\GitHub\Short_School_Projects\Binariy_Calc\Binariy_Calc.cpp(112,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\benja\OneDrive\Documentos\GitHub\Short_School_Projects\Binariy_Calc\Binariy_Calc.cpp(113,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\benja\OneDrive\Documentos\GitHub\Short_School_Projects\Binariy_Calc\Binariy_Calc.cpp(125,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\benja\OneDrive\Documentos\GitHub\Short_School_Projects\Binariy_Calc\Binariy_Calc.cpp(151,24): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\benja\OneDrive\Documentos\GitHub\Short_School_Projects\Binariy_Calc\Binariy_Calc.cpp(152,24): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Binariy_Calc.vcxproj -> C:\Users\benja\OneDrive\Documentos\GitHub\Short_School_Projects\Binariy_Calc\x64\Debug\Binariy_Calc.exe

@@ -50,16 +50,18 @@ int main()
 
 	} while (cont1);
 
-	std::cout << "Bien, Ahora selecciona la operacion a realizar\n";
-	std::cout << "1) SUMA\n";
-	std::cout << "2) RESTA\n";
-	std::cout << "3) PRODUCTO\n";
-	std::cin >> menu1;
+	do
+	{
+		std::cout << "Bien, Ahora selecciona la operacion a realizar\n";
+		std::cout << "1) SUMA\n";
+		std::cout << "2) RESTA\n";
+		std::cout << "3) PRODUCTO\n";
+		std::cin >> menu1;
 	
 
-
+		menu2 = false;
 		switch (menu1)
-	{	
+		{	
 		case 1:
 			std::cout << "Ingresa el primer numero binario: ";
 			std::cin >> binario1;
@@ -186,10 +188,15 @@ int main()
 
 		default:
 			std::cout << "Por Favor Selecciona una Opcion Valida\n";
-		//	menu2 = true;
+			menu2 = true;
 			break;
-		break;
+
 		}
+		
+		std::cout << "Para Inicializar la calculadora de nuevo, presiona 1. Usa 0 para terminar la ejecucion\n";
+		std::cin >> menu2;
+	}
+	while (menu2);
 	 
 }
 
