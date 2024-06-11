@@ -6,7 +6,7 @@
 
 int main()
 {
-	short int decimal = 0, binario[8], delay1 = 2, menu1;
+	short int decimal = 0, binario[8], delay1 = 5, delay2 = 1, menu1 = 0;
 	bool bitcheck = false, cont1 = false, pte = false, menu2 = 0;
 	std::string binario1, binario2, ans;
 	int tam1 = 0, tam2 = 0, bit1 = 0, bit2 = 0, suma = 0, resta = 0, pte2 = 0, mult = 0;
@@ -27,7 +27,7 @@ int main()
 			else
 			{
 				std::cout << "Por favor, ingresa un valor valido\n";
-				std::this_thread::sleep_for(std::chrono::seconds(delay1));
+				std::this_thread::sleep_for(std::chrono::seconds(delay2));
 				system("cls");
 
 			}
@@ -98,6 +98,9 @@ int main()
 				ans.insert(0, 1, '1');
 			}
 			std::cout << "La suma es " << ans << std::endl;
+			std::cout << "Por favor, ingresa un valor valido\n";
+			std::this_thread::sleep_for(std::chrono::seconds(delay1));
+			system("cls");
 			break;
 
 		case 2:
@@ -139,6 +142,9 @@ int main()
 				ans.insert(0, 1, resta + '0');
 			}
 			std::cout << "La resta es " << ans << std::endl;
+			std::cout << "Por favor, ingresa un valor valido\n";
+			std::this_thread::sleep_for(std::chrono::seconds(delay1));
+			system("cls");
 			break;
 
 		case 3:
@@ -184,11 +190,18 @@ int main()
 		ans = ans.substr(ans.find('1'));
 
 		std::cout << "El Producto es " << ans << std::endl;
+		std::cout << "Por favor, ingresa un valor valido\n";
+		std::this_thread::sleep_for(std::chrono::seconds(delay1));
+		system("cls");
 		break;
 
 		default:
 			std::cout << "Por Favor Selecciona una Opcion Valida\n";
 			menu2 = true;
+
+		std::cout << "Por favor, ingresa un valor valido\n";
+		std::this_thread::sleep_for(std::chrono::seconds(delay1));
+		system("cls");
 			break;
 
 		}
